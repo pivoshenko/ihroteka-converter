@@ -52,7 +52,7 @@ build-backend = "hatchling.build"
 requires = ["hatchling"]
 
 [dependency-groups]
-ci = ["python-semantic-release~=10.4.1"]
+ci = ["python-semantic-release>=10.4.1,<10.6.0"]
 dev = ["poethepoet>=0.37.0"]
 formatters = ["pyupgrade>=3.21.0", "ruff>=0.14.3"]
 linters = ["commitizen>=4.9.1", "mypy>=1.18.2", "ruff>=0.14.3"]
